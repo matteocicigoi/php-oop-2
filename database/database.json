@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "Crocchette",
+        "prezzo": 22.26,
+        "categoria": "Cani",
+        "img": "crocchette.jpg",
+        "scadenza": "29/09/2025",
+        "tipologia": "Cibo"
+    },
+    {
+        "nome": "Gioco per Cane",
+        "prezzo": 5.99,
+        "categoria": "Cani",
+        "img": "trixie-cane-gioco-corda.webp",
+        "peso": 200,
+        "tipologia": "Gioco"
+    },
+    {
+        "nome": "Cuccia da interni per gatti",
+        "prezzo": 32.99,
+        "categoria": "Gatti",
+        "img": "cuccia.jpg",
+        "dimensioni": [
+            15,
+            15,
+            15
+        ],
+        "tipologia": "Cuccia"
+    }
+]

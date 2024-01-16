@@ -1,0 +1,58 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ededed;
+}
+
+/* header */
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+/* main */
+main {
+    display: flex;
+    width: 1200px;
+    height: 90vh;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main article {
+    width: calc((100% - 20px) / 3);
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+main article img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    object-position: center;
+    background-color: white;
+}
+
+main article h2.titolo {
+    margin-bottom: 20px;
+}
+
+main article h2.info {
+    margin-top: 10px;
+}
