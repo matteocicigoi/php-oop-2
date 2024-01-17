@@ -1,7 +1,8 @@
 <?php
+require_once __DIR__ . '/../traits/Nome.php';
 
 class Prodotto {
-    public $nome;
+    use Nome;
     public $prezzo;
     public $categoria;
     public $img;
@@ -12,6 +13,8 @@ class Prodotto {
         $this->prezzo = $_prezzo;
         if($_categoria === 'Cani' || $_categoria === 'Gatti'){
             $this->categoria = $_categoria;
+        }else{
+            throw new Exception('Categoria non valida');
         }
         $this->img = $_img;
     }
